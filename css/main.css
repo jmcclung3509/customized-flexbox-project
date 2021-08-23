@@ -110,16 +110,12 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  margin-top:-100px;
   height: 100%;
   width: 100%;
+  float:none;
+  clear: top;
 }
-.heading {
-    display:flex;
-    justify-content: left;
-    align-items: top;
-    margin-top:50px;
-  }
+
 
 #content {
   display: flex;
@@ -138,10 +134,10 @@ body {
   height: 300px;
   text-align: center;
 }
-#heading-content {
+#heading {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: top;
     color: #fff;
     font-family: 'Lora', serif;
     font-weight: 300;
@@ -149,14 +145,14 @@ body {
     line-height: 2em;
     border-radius: 10px;
     padding: 10px 10px;
-    width: 600px;
     text-align: center;
   }
 
 
-#heading-content h2 span {
+#heading h2 span {
     font-family: 'Shippori Mincho B1', serif;
     font-weight: bold;
+    color: yellow;
 }
 
 
